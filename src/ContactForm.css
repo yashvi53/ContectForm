@@ -1,0 +1,50 @@
+*{
+ margin: 0px;
+ padding: 0px;
+ color: black;
+ font-family:'Times New Roman', Times, serif;
+ font-weight: 800; 
+ text-align: center;
+/* background-color: aquamarine; */
+}
+.contact-form{
+   display: inline-block;
+   margin-top: 5%;
+  
+   height: 100vh;
+   
+}
+.form-group{
+    padding: 12px 30px;
+    text-align: left;
+}
+.form-group input{
+    margin-left: 15px;
+    padding: 5px 30px;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 20px;
+    
+}
+
+.gender-e{
+    margin-left: 20px;
+}
+.gender-m{
+    margin-left: 22px;
+}
+.gender-o{
+    margin-left: 26px;
+}
+label{
+    font-size: 20px;
+}
+button{
+   position: absolute;
+   left: 47%;
+   padding: 5px 20px;
+   border-radius: 20px;
+   background-color: aliceblue;
+   cursor: pointer;
+   color: black;
+}
