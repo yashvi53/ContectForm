@@ -10,22 +10,88 @@
 .contact-form{
    display: inline-block;
    margin-top: 5%;
-  
+  width: 60%;
    height: 100vh;
+   box-shadow: 5px 10px 8px #888888;
+   border-radius: 10px;
+   background-color: #202235;
    
+}
+.person-detail{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
 }
 .form-group{
     padding: 12px 30px;
-    text-align: left;
+    text-align: center;
 }
+.form-group ::placeholder{
+    color: rgb(159, 158, 158);
+}
+
+
 .form-group input{
-    margin-left: 15px;
-    padding: 5px 30px;
-    border: 2px solid black;
+   color: rgb(253, 244, 244);
+    padding: 7px 60px;
+    border: 2px solid rgb(75, 72, 72);
     outline: none;
     border-radius: 20px;
+    background: rgba(255,255,255,0.3);
+}
+.birth-d{
+   padding: 7px 60px!important;
+   background:rgba(255,255,255,0.3);
+
+}
+.pincode{
+    padding: 7px 60px!important;
+    background:rgba(255,255,255,0.3)
+}
+.addressline{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin: 10px 12px;
+    
+ 
+}
+textarea{
+    border-radius: 5px;
+}
+.form-control{
+    margin-left:20px
+}
+.form-error{
+    color: aliceblue;
+}
+textarea::placeholder {
+    color: rgb(159, 158, 158);
+    padding-top: 12px;
+    font-size: 15px;
+  }
+
+.address-2{
+    margin-left: 20px;
     
 }
+label{
+    color: white;
+}
+
+textarea{
+    background:rgba(255,255,255,0.3);
+   
+}
+
+.csc{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
 
 .gender-e{
     margin-left: 20px;
@@ -47,4 +113,8 @@ button{
    background-color: aliceblue;
    cursor: pointer;
    color: black;
+}
+button:hover{
+  background-color: #888888;
+  color: white;
 }
